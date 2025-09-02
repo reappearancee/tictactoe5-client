@@ -37,5 +37,6 @@ public class PanelController : MonoBehaviour
 
         _backgroundCanvasGroup.DOFade(0, 0.3f).SetEase(Ease.Linear);
         panelRectTransform.DOScale(0, 0.3f).SetEase(Ease.InBack);
+        
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
-    [SerializeField] private GameObject confirmPanel;
+   [SerializeField] private GameObject confirmPanel;
     
     // Main Scene에서 선택한 게임 타입
     private Constants.GameType _gameType;

@@ -20,6 +20,7 @@ public class ConfirmPanelController : PanelController
     public void OnClickConfirmButton()
     {
         Hide();
+        GameManager.Instance.ChangeToMainScene();
     }
 
     /// <summary>
