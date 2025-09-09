@@ -1,5 +1,5 @@
 
-public class Constants
+public static class Constants
 {
     public const string ServerURL = "http://localhost:3000";
     public enum GameType { SinglePlay, DualPlay, MultiPlay }
