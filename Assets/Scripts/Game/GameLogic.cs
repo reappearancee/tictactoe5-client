@@ -4,14 +4,10 @@ using UnityEngine;
 public class GameLogic
 {
     public BlockController blockController;         // Block을 처리할 객체
-
     private Constants.PlayerType[,] _board;         // 보드의 상태 정보
-    
     public BasePlayerState firstPlayerState;        // Player A
     public BasePlayerState secondPlayerState;       // Player B
-
     public enum GameResult { None, Win, Lose, Draw }
-    
     private BasePlayerState _currentPlayerState;    // 현재 턴의 Player
 
     public GameLogic(BlockController blockController, Constants.GameType gameType)
